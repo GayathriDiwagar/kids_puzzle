@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    font-family:sans-serif;
+    background:url('https://i.pinimg.com/originals/47/c5/ad/47c5ad1cf237848af9fc1db8cf0772a1.gif');
+}
+.container{
+    background-color:skyblue;
+    border:3px dashed navy;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    border-radius:10px;
+}
+
+h3{
+    font-size:30px;
+    color:brown;
+}
+input{
+    height:25px;
+}
+button{
+    background-color:orangered;
+}
